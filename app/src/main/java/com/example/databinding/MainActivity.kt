@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         val binding:ActivityMainBinding= DataBindingUtil.setContentView(this,R.layout.activity_main)
         var users = User("sachin",0,"")
         users.name="nabin"
-
+        //hey
         binding.setVariable(BR.users, users)
         binding.executePendingBindings()
         binding.setVariable(BR.users, users)
